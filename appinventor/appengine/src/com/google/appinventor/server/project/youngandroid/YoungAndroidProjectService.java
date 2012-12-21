@@ -585,7 +585,7 @@ public final class YoungAndroidProjectService extends CommonProjectService {
       return applicationVersionId + "." + applicationId + ".appspot.com";
     } else {
       // TODO(user): Figure out how to make this more generic
-      return "localhost:8888";
+      return "localhost:8080";
     }
   }
 
